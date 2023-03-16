@@ -212,3 +212,10 @@ html {
   font-family: "Karla", sans-serif;
   cursor: pointer;
 }
+
+.meme--img {
+  max-width: 100%;
+  border-radius: 2px;
+  border: none;
+  margin-top: 36px;
+}
