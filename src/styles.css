@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ****************************** End of CSS Reset ****************************** */
+/* ****************************** End of CSS Reset ****************************** */
+/* ****************************** End of CSS Reset ****************************** */
+/* ****************************** End of CSS Reset ****************************** */
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+}
+
+.head--cont {
+  width: 100%;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.head--title {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 20.7px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin-left: 7px;
+}
+
+.head--subtitle {
+  margin-right: 37px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.5px;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+}
+
+.head--img {
+  margin-left: 20px;
+  width: 31.3px;
+  height: 26px;
+}
+
+.meme--cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme--input {
+  height: 35px;
+  width: 230px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+
+.meme--inputs-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+  gap: 17px;
+  margin-bottom: 15px;
+}
+
+.meme--btn {
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  line-height: 18.7px;
+  letter-spacing: -0.1em;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+}
